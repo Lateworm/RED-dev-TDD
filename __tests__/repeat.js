@@ -17,8 +17,8 @@ describe('Repeat', () => {
 
   describe('when given a number', () => {
     it('should return a string indicating the number of consecutive matching characters', () => {
-      const result = repeat('3');
-      expect(result).toBe('31');
+      const result = repeat(333);
+      expect(result).toBe('33');
     });
   });
 });
