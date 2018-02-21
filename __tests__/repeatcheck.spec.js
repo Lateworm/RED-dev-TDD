@@ -1,4 +1,4 @@
-const repeat = require('../lib/repeat.js');
+const repeat = require('../lib/repeatCheck.js');
 
 describe('Repeat', () => {
   describe('when given a string featuring 3 consecutive matching characters', () => {
